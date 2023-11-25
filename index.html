@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Birthday AMU!</title>
+    <meta name="description" content="Happy Birthday AMU!">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700|Lobster' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background-image: url('./images/space-background.png');
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+      }
+      #bithday_card {
+        background-image: url('./images/bubble-bg.png');
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 10px;
+        background-color: white;
+        overflow: hidden;
+        border-radius: 20px;
+      }
+      #header {
+        border-radius: 20px;
+        font-family: 'Lobster', cursive;
+        padding: 20px;
+        background-color: rgb(105, 105, 213);
+      }
+      #footer {
+        border-radius: 20px;
+        padding: 20px;
+        background-color: pink;
+      }
+      #content {
+        padding: 30px;
+        text-align: left;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+      }
+      #hero img {
+        border-radius: 20px;
+      }
+      #bubble_image img {
+        float: right;
+      }
+      #content img {
+        float: right;
+        border-radius: 20px;
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          background-image: none;
+          margin: 0px;
+          padding: 0px;
+        }
+        #bithday_card {
+          margin: 0px;
+          padding: 0px;
+        }
+        #bubble_image img,
+        #content img {
+          float: none;
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="bithday_card">
+      <section id="hero">
+        <img src="./images/hero-image.png" alt="Hero image">
+      </section>
+      <div id="header">
+        <h1>Happy Birthday</h1>
+      </div><!--header-->
+      <div id="bubble_image"><img src="./images/bubble-bottle.png" alt="bubble-bg"></div>
+      <section id="content">
+        <p style="color: red;">Dear AMU,</p>
+        <p>Wishing you a fantastic birthday filled with joy and happiness!</p>
+        <p>May this year bring you success, good health, and all the things you desire.</p>
+        <p>Celebrate and enjoy your special day to the fullest!</p>
+        <p>Best wishes,</p>
+        <p style="color: red;">Your Jeevan</p>
+      </section><!--content section-->
+      <section id="unicorn_image"><img src="./images/unicorn.png" alt="unicorn"></section>
+      <div id="footer">
+        <p>Thank you for being awesome!</p>
+      </div>
+      <section><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56851.214884724475!2d84.8895955566558!3d27.05540489959601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399355377248b9cf%3A0x90db3b5efb13d86!2sParwanipur!5e0!3m2!1sen!2snp!4v1700852517008!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+    </div><!--birthday card section -->
+  </body>
+</html>
